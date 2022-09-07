@@ -1,0 +1,90 @@
+@import url(./jenis_arsip.css);
+@import url(./login.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 2;
+}
+
+#app {
+  color: white;
+  min-height: 100vh;
+  /* background-color: #0264FB; */
+  background-image: linear-gradient(to right top, #0264fb, #0075f4, #0081e6, #008ad3, #0090bf);
+}
+.hint-text {
+  color: rgb(220, 47, 47);
+  font-size: 12px;
+}
+.nav-link:active {
+  font-weight: 700;
+}
+.nav-item .nav-link {
+  color: white;
+}
+.nav-item:hover .nav-link {
+  background-color: #FFA212;
+  border-radius: 5px;
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: #4EB883;
+}
+
+.badge-success {
+    background-color: #4EB883;
+}
+
+.card-product {
+    border-radius: 15px;
+}
+
+/* Screen */
+.sb .container {
+  margin-top: 50px;
+}
+
+/* .form-input-login .form-control {
+  background-color: black;
+  width: 50% !important;
+} */
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: black;
+}
+.img-fluid {
+    border-radius: 15px;
+}
+.screen-box {
+  max-width: 800px;
+  /* height: 100vh; */
+  background-color: #F3F5F9;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  padding-bottom: 0;
+  z-index: 1;
+}
+.w-24 {
+  width: 6rem;
+}
+
+@media (min-width: 1440px) {
+    .container {
+      max-width: 1200px;  
+    }
+}
