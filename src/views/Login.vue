@@ -11,7 +11,7 @@
             <div class="row col-12 text-center">
               <h2>Digital Arsip Kota Makassar</h2>
             </div>
-            <div class="row col-6 mx-auto form-login">
+            <div class="row col-lg-6 col-md-8 mx-auto form-login">
               <form ref="form" @submit.stop.prevent="submitLogin">
                 <b-form-group>
                   <b-form-input

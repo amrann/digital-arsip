@@ -1,7 +1,8 @@
 <template>
   <div class="hero">
     <!-- Dekstop Mode -->
-    <div class="d-none d-md-block">
+    <!-- <div class="d-none d-md-block"> -->
+    <div>
       <div class="row">
         <div class="col-md-6">
           <div class="d-flex h-100">

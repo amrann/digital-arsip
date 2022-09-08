@@ -83,8 +83,8 @@
   width: 6rem;
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .container {
       max-width: 1200px;  
     }
-}
+} */
